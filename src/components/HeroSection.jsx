@@ -29,7 +29,7 @@ const HeroSection = () => {
                 Kickstart Your <span className="text-blue-400">Creative & Tech Career</span> With Real Projects
               </h1>
               <p className="text-xl text-gray-300 mb-4 leading-relaxed">
-                Join our Web Development and Graphic Design Internship Program and gain the experience that actually matters.
+                Join our Web Development, UI/UX Design, and Graphic Design Internship Program and gain the experience that actually matters.
               </p>
               <p className="text-gray-400 leading-relaxed">
                 Work on real client-style tasks using modern tools, AI workflows, and industry-standard practices.
@@ -64,7 +64,7 @@ const HeroSection = () => {
               </div>
 
               {/* Content */}
-              <div className="space-y-6">
+              <div className="space-y-4">
                 
                 <div className="flex items-center justify-between p-4 bg-blue-500/10 rounded-xl border border-blue-400/20">
                   <div className="flex items-center">
@@ -73,7 +73,7 @@ const HeroSection = () => {
                     </div>
                     <div>
                       <p className="font-medium">Web Development</p>
-                      <p className="text-gray-400 text-sm">Frontend & UI/UX</p>
+                      <p className="text-gray-400 text-sm">Frontend & Modern Tech</p>
                     </div>
                   </div>
                   <span className="text-blue-400 font-medium">Available</span>
@@ -83,6 +83,19 @@ const HeroSection = () => {
                   <div className="flex items-center">
                     <div className="w-10 h-10 bg-blue-500/20 rounded-lg mr-3 flex items-center justify-center">
                       <span className="text-blue-400">🎨</span>
+                    </div>
+                    <div>
+                      <p className="font-medium">UI/UX Design</p>
+                      <p className="text-gray-400 text-sm">User Experience & Interface</p>
+                    </div>
+                  </div>
+                  <span className="text-blue-400 font-medium">Available</span>
+                </div>
+
+                <div className="flex items-center justify-between p-4 bg-blue-500/10 rounded-xl border border-blue-400/20">
+                  <div className="flex items-center">
+                    <div className="w-10 h-10 bg-blue-500/20 rounded-lg mr-3 flex items-center justify-center">
+                      <span className="text-blue-400">🖌️</span>
                     </div>
                     <div>
                       <p className="font-medium">Graphic Design</p>

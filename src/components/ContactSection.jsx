@@ -32,7 +32,7 @@ const ContactSection = () => {
                 </div>
                 <div>
                   <h3 className="font-semibold text-white mb-1">Email</h3>
-                  <p className="text-blue-300">contact@company.com</p>
+                  <p className="text-blue-300">hello@primedigitals.io</p>
                 </div>
               </div>
             </div>
@@ -47,7 +47,7 @@ const ContactSection = () => {
                 </div>
                 <div>
                   <h3 className="font-semibold text-white mb-1">WhatsApp</h3>
-                  <p className="text-blue-300">+1 (555) 123-4567</p>
+                  <p className="text-blue-300">+91 79901 98105 </p>
                 </div>
               </div>
             </div>
@@ -62,7 +62,8 @@ const ContactSection = () => {
                 </div>
                 <div>
                   <h3 className="font-semibold text-white mb-1">Instagram</h3>
-                  <p className="text-blue-300">@company_official</p>
+                  <p className="text-blue-300">@prime_digitals._
+                  </p>
                 </div>
               </div>
             </div>
@@ -77,7 +78,7 @@ const ContactSection = () => {
                 </div>
                 <div>
                   <h3 className="font-semibold text-white mb-1">Company Website</h3>
-                  <p className="text-blue-300">www.company.com</p>
+                  <p className="text-blue-300">https://primedigitals.io/</p>
                 </div>
               </div>
             </div>
@@ -126,7 +127,7 @@ const ContactSection = () => {
         {/* Footer */}
         <div className="text-center pt-12 border-t border-blue-400/20">
           <p className="text-gray-400">
-            © 2024 Company Name. All rights reserved. Building the future, one intern at a time.
+            © 2024 PRIME DIGITALS. All rights reserved. Building the future, one intern at a time.
           </p>
         </div>
 
