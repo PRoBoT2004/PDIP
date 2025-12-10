@@ -9,7 +9,7 @@ const AboutSection = () => {
         {/* Section Header */}
         <div className="text-center mb-16">
           <h2 className="text-3xl lg:text-4xl font-bold mb-6">
-            About <span className="text-blue-400">Us</span>
+            About <span className="text-blue-400">Prime Digitals</span>
           </h2>
         </div>
 
@@ -19,58 +19,72 @@ const AboutSection = () => {
           {/* Left Content */}
           <div className="space-y-6">
             <p className="text-lg text-gray-300 leading-relaxed">
-              Hey there! We're a team of passionate creators who love building beautiful websites, designing stunning brands, and crafting user experiences that people actually enjoy using.
+              Prime Digitals is a creative digital agency specializing in web development, UI/UX design, and brand identity. Since 2020, we've been helping businesses establish their digital presence through innovative solutions and creative excellence.
             </p>
             <p className="text-lg text-gray-300 leading-relaxed">
-              We've been in the trenches, working with amazing brands and businesses, helping them tell their stories through smart design and clean code. And honestly? We've learned a thing or two along the way.
+              Our team has successfully delivered projects across various industries, working with startups, small businesses, and established brands. We pride ourselves on creating digital experiences that are not just visually appealing, but also functional and user-centric.
             </p>
             <p className="text-lg text-blue-200 leading-relaxed">
-              That's why we created this internship program - to share what we know with the next generation of designers and developers. We want to give you the real-world experience that actually prepares you for what's out there.
+              Our internship program was born from a simple observation: there's a significant gap between academic learning and industry requirements. We created this program to bridge that gap, offering students and fresh graduates hands-on experience with real-world projects and modern tools.
             </p>
           </div>
 
           {/* Right Visual */}
           <div className="space-y-6">
             
-            {/* Company Stats */}
-            <div className="grid grid-cols-2 gap-6">
-              <div className="bg-gradient-to-br from-blue-500/10 to-blue-600/5 border border-blue-400/20 rounded-xl p-6 text-center">
-                <div className="text-3xl font-bold text-blue-400 mb-2">5+</div>
-                <p className="text-gray-400">Years Creating Magic</p>
-              </div>
-              <div className="bg-gradient-to-br from-blue-500/10 to-blue-600/5 border border-blue-400/20 rounded-xl p-6 text-center">
-                <div className="text-3xl font-bold text-blue-400 mb-2">100+</div>
-                <p className="text-gray-400">Dreams Brought to Life</p>
-              </div>
-              <div className="bg-gradient-to-br from-blue-500/10 to-blue-600/5 border border-blue-400/20 rounded-xl p-6 text-center">
-                <div className="text-3xl font-bold text-blue-400 mb-2">50+</div>
-                <p className="text-gray-400">Happy Collaborators</p>
-              </div>
-              <div className="bg-gradient-to-br from-blue-500/10 to-blue-600/5 border border-blue-400/20 rounded-xl p-6 text-center">
-                <div className="text-3xl font-bold text-blue-400 mb-2">24/7</div>
-                <p className="text-gray-400">We're Here for You</p>
+            {/* Company Overview */}
+            <div className="bg-gradient-to-br from-blue-500/10 to-blue-600/5 border border-blue-400/20 rounded-2xl p-8">
+              <h3 className="text-2xl font-semibold mb-6 text-blue-300">Who We Are</h3>
+              <p className="text-gray-300 mb-6 leading-relaxed">
+                As a full-service digital marketing company, we combine creativity with technology to deliver comprehensive digital solutions. From crafting compelling brand identities to developing cutting-edge web applications, we're your partners in digital transformation.
+              </p>
+              <div className="space-y-3">
+                <div className="flex items-start">
+                  <div className="w-6 h-6 bg-blue-500/20 rounded-lg mr-3 mt-1 flex items-center justify-center flex-shrink-0">
+                    <span className="text-blue-400 text-sm">✓</span>
+                  </div>
+                  <span className="text-gray-300">Strategic digital marketing campaigns</span>
+                </div>
+                <div className="flex items-start">
+                  <div className="w-6 h-6 bg-blue-500/20 rounded-lg mr-3 mt-1 flex items-center justify-center flex-shrink-0">
+                    <span className="text-blue-400 text-sm">✓</span>
+                  </div>
+                  <span className="text-gray-300">Custom web & mobile development</span>
+                </div>
+                <div className="flex items-start">
+                  <div className="w-6 h-6 bg-blue-500/20 rounded-lg mr-3 mt-1 flex items-center justify-center flex-shrink-0">
+                    <span className="text-blue-400 text-sm">✓</span>
+                  </div>
+                  <span className="text-gray-300">Brand strategy & visual identity</span>
+                </div>
+                <div className="flex items-start">
+                  <div className="w-6 h-6 bg-blue-500/20 rounded-lg mr-3 mt-1 flex items-center justify-center flex-shrink-0">
+                    <span className="text-blue-400 text-sm">✓</span>
+                  </div>
+                  <span className="text-gray-300">Social media management & content creation</span>
+                </div>
               </div>
             </div>
 
             {/* Services */}
             <div className="bg-gradient-to-br from-blue-500/10 to-blue-600/5 border border-blue-400/20 rounded-2xl p-6">
-              <h3 className="text-xl font-semibold mb-4">What We Love Doing</h3>
+              <h3 className="text-xl font-semibold mb-4">Our Approach</h3>
               <div className="space-y-3">
                 <div className="flex items-center">
                   <span className="w-2 h-2 bg-blue-400 rounded-full mr-3"></span>
-                  <span className="text-gray-300">Building websites that actually work (and look amazing)</span>
+                  <span className="text-gray-300">Data-driven strategies for measurable results</span>
                 </div>
                 <div className="flex items-center">
                   <span className="w-2 h-2 bg-blue-400 rounded-full mr-3"></span>
-                  <span className="text-gray-300">Designing user experiences that feel effortless</span>
+                  <span className="text-gray-300">Collaborative process with our clients</span>
                 </div>
                 <div className="flex items-center">
                   <span className="w-2 h-2 bg-blue-400 rounded-full mr-3"></span>
-                  <span className="text-gray-300">Creating brands that people remember</span>
+                  <span className="text-gray-300">Cutting-edge tools and technologies</span>
                 </div>
                 <div className="flex items-center">
                   <span className="w-2 h-2 bg-blue-400 rounded-full mr-3"></span>
-                  <span className="text-gray-300">Crafting visuals that tell powerful stories</span>
+                  <span className="text-gray-300">Continuous support and optimization</span>
                 </div>
               </div>
             </div>
@@ -80,39 +94,39 @@ const AboutSection = () => {
         </div>
 
         {/* Mission Statement */}
-        <div className="mt-16 text-center">
+        {/* <div className="mt-16 text-center">
           <div className="bg-gradient-to-r from-blue-500/10 via-blue-600/5 to-blue-500/10 border border-blue-400/20 rounded-2xl p-8 max-w-4xl mx-auto">
-            <h3 className="text-2xl font-semibold mb-4 text-blue-300">Why We Do This</h3>
+            <h3 className="text-2xl font-semibold mb-4 text-blue-300">Our Mission</h3>
             <p className="text-lg text-gray-300 leading-relaxed">
-              We believe there's a huge gap between what you learn in college and what you actually need in the real world. So we're here to bridge that gap - with real projects, modern tools, and mentors who've been where you want to go. Think of us as your career launchpad! 🚀
+              We're committed to nurturing the next generation of digital creators by providing practical, industry-relevant training. Our internship program combines real client work with mentorship from experienced professionals, ensuring that our interns graduate not just with certificates, but with portfolio-worthy projects and job-ready skills.
             </p>
           </div>
-        </div>
+        </div> */}
 
         {/* What Makes Us Different */}
-        <div className="mt-12 grid md:grid-cols-3 gap-8">
+        {/* <div className="mt-12 grid md:grid-cols-3 gap-8">
           <div className="bg-gradient-to-br from-blue-500/10 to-blue-600/5 border border-blue-400/20 rounded-2xl p-6 text-center">
             <div className="w-16 h-16 bg-blue-500/20 rounded-xl mx-auto mb-4 flex items-center justify-center">
-              <span className="text-blue-400 text-2xl">💡</span>
+              <span className="text-blue-400 text-2xl">💼</span>
             </div>
-            <h4 className="font-semibold text-white mb-2">Real Talk, Real Projects</h4>
-            <p className="text-gray-400 text-sm">No boring theory. Just hands-on work that actually matters.</p>
+            <h4 className="font-semibold text-white mb-2">Real-World Projects</h4>
+            <p className="text-gray-400 text-sm">Work on actual client briefs and industry-standard deliverables, not theoretical assignments.</p>
           </div>
           <div className="bg-gradient-to-br from-blue-500/10 to-blue-600/5 border border-blue-400/20 rounded-2xl p-6 text-center">
             <div className="w-16 h-16 bg-blue-500/20 rounded-xl mx-auto mb-4 flex items-center justify-center">
-              <span className="text-blue-400 text-2xl">🤝</span>
+              <span className="text-blue-400 text-2xl">🎓</span>
             </div>
-            <h4 className="font-semibold text-white mb-2">We Actually Care</h4>
-            <p className="text-gray-400 text-sm">Your success is our success. We're invested in your journey.</p>
+            <h4 className="font-semibold text-white mb-2">Expert Mentorship</h4>
+            <p className="text-gray-400 text-sm">Learn from professionals with years of industry experience and active portfolios.</p>
           </div>
           <div className="bg-gradient-to-br from-blue-500/10 to-blue-600/5 border border-blue-400/20 rounded-2xl p-6 text-center">
             <div className="w-16 h-16 bg-blue-500/20 rounded-xl mx-auto mb-4 flex items-center justify-center">
-              <span className="text-blue-400 text-2xl">⚡</span>
+              <span className="text-blue-400 text-2xl">🚀</span>
             </div>
-            <h4 className="font-semibold text-white mb-2">Future-Ready Skills</h4>
-            <p className="text-gray-400 text-sm">Learn what the industry actually uses, including AI tools.</p>
+            <h4 className="font-semibold text-white mb-2">Modern Tech Stack</h4>
+            <p className="text-gray-400 text-sm">Master current industry tools including AI-powered workflows and modern frameworks.</p>
           </div>
-        </div>
+        </div> */}
 
       </div>
     </section>

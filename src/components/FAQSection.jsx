@@ -76,7 +76,7 @@ const FAQSection = () => {
         </div>
 
         {/* Still Have Questions */}
-        <div className="mt-12 text-center">
+        {/* <div className="mt-12 text-center">
           <div className="bg-gradient-to-r from-blue-500/10 via-blue-600/5 to-blue-500/10 border border-blue-400/20 rounded-2xl p-8">
             <h3 className="text-xl font-bold text-white mb-4">Still Have Questions?</h3>
             <p className="text-gray-400 mb-6">Feel free to reach out to us directly. We're here to help!</p>
@@ -84,7 +84,7 @@ const FAQSection = () => {
               Contact Us
             </button>
           </div>
-        </div>
+        </div> */}
 
       </div>
     </section>

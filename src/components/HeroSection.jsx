@@ -2,13 +2,6 @@
 import React from 'react';
 
 const HeroSection = () => {
-  const scrollToApply = () => {
-    const element = document.getElementById('apply');
-    if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
-    }
-  };
-
   return (
     <section className="min-h-screen bg-gray-900 text-white flex items-center">
       <div className="max-w-7xl mx-auto px-6 py-20">
@@ -37,12 +30,14 @@ const HeroSection = () => {
             </div>
 
             {/* CTA */}
-            <button 
-              onClick={scrollToApply}
-              className="px-8 py-3 bg-blue-500 hover:bg-blue-600 text-white font-medium rounded-lg transition-colors duration-200"
+            <a 
+              href="https://forms.gle/3Verbrw97c7nU17e6"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block px-8 py-3 bg-blue-500 hover:bg-blue-600 text-white font-medium rounded-lg transition-colors duration-200"
             >
               Apply Now
-            </button>
+            </a>
 
           </div>
 
